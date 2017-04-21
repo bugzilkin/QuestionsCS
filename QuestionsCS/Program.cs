@@ -147,8 +147,7 @@ namespace AK.QuestionsCS
                 Console.WriteLine("Cannot parse input as integer. Abort the task.");
                 return;
             }
-
-            var calc = new BinarySearcherIterative();
+            
             try
             {
                 var index = binarySearcher.BinarySearch(array, parsedInput);
